@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Welcome to Fridge Chef</h1>
+    <p>Let's get cookin'!</p>
+    <form id="ingredient-form">
+        <label for="ingredients">Enter your ingredients:</label>
+        <input type="text" id="ingredients" name="ingredients" placeholder="Enter ingredients...">
+        <button type="submit">Search Recipes</button>
+    </form>
+    <div id="recipe-results">
+        <!-- Recipe results will be displayed here -->
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+{% endblock %}
