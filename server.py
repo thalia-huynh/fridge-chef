@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('registration')
+@app.route('/registration')
 def register():
     return render_template('registration.html')
 

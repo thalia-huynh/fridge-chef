@@ -28,5 +28,5 @@ if __name__ == "__main__":
     connect_to_db(app, "fridge_chef_db")
 
 
-# NOTE TO SELF: NEED TO CREATEDB FRIDGE_CHEF_DB
+# NTS: created fridge_chef_db but psql connected to thaliahuynh. When this happens, do 'psql -d fridge_chef_db' to specify which database
 # IF CHANGES ARE MADE TO MODEL.PY THAT REQUIRES CHANGING A TABLE'S SCHEDME, DROP DATABASE AND RERUN CREATE_ALL
